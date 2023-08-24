@@ -74,7 +74,7 @@ object AboutScreen : Screen() {
         Scaffold(
             topBar = { scrollBehavior ->
                 AppBar(
-                    title = stringResource(R.string.pref_category_about),
+                    title = "stringResource(R.string.pref_category_about)",
                     navigateUp = if (handleBack != null) handleBack::invoke else null,
                     scrollBehavior = scrollBehavior,
                 )
